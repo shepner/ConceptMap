@@ -15,6 +15,8 @@ https://bl.ocks.org/mbostock/5649592
 https://bost.ocks.org/mike/fisheye/
 http://sigmajs.org/
 
+This looks promising:  http://bl.ocks.org/mbostock/1153292
+
 
 
 https://github.com/NorthwoodsSoftware/GoJS/blob/master/samples/conceptMap.html
