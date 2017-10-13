@@ -66,9 +66,11 @@
 ];*/
 
 d3.json("https://raw.githubusercontent.com/shepner/ConceptMap/master/working2/treeData.json",
-  function(error, treeData) {
-    var links = treeData[0];
-    alert("links");
+  function(error, jsonData) {
+    if (error) return console.warn(error);
+    data = jsonData;
+    // do the visulization here
+    console.log(data);
   }
 );
 
