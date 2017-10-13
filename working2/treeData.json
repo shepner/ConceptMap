@@ -1,4 +1,5 @@
-[  {"source": "Microsoft", "target": "Amazon", "type": "licensing"},
+[  
+  {"source": "Microsoft", "target": "Amazon", "type": "licensing"},
   {"source": "Microsoft", "target": "HTC", "type": "licensing"},
   {"source": "Samsung", "target": "Apple", "type": "suit"},
   {"source": "Motorola", "target": "Apple", "type": "suit"},
