@@ -62,8 +62,7 @@ d3.json("https://raw.githubusercontent.com/shepner/ConceptMap/master/working/dat
 function update(source) {
 
   // Compute the new tree layout.
-  //var nodes = tree.nodes(root).reverse(),
-  var nodes = tree.nodes(source).reverse(),
+  var nodes = tree.nodes(source).reverse(),  //var nodes = tree.nodes(root).reverse(),
 	  links = tree.links(nodes);
 
   // Normalize for fixed-depth.
