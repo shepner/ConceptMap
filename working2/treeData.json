@@ -1,4 +1,4 @@
-var words =
+words =
 [
   {source: "Microsoft", target: "Amazon", type: "licensing"},
   {source: "Microsoft", target: "HTC", type: "licensing"},
@@ -29,4 +29,4 @@ var words =
   {source: "Kodak", target: "RIM", type: "suit"},
   {source: "Nokia", target: "Qualcomm", type: "suit"}
 ]
-;
+
