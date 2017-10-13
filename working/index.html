@@ -52,10 +52,12 @@ var svg = d3.select("body").append("svg")
 	.attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
 // load the external data
-d3.json("data.json", function(error, treeData) {
-  root = treeData[0];
-  update(root);
-});
+d3.json("https://raw.githubusercontent.com/shepner/ConceptMap/master/working/data.json",
+  function(error, treeData) {
+    root = treeData[0];
+    update(root);
+  }
+);
 
 function update(source) {
 
