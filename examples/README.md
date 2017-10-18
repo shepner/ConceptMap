@@ -26,6 +26,8 @@ Software
 * [Mohiomap](https://www.moh.io/)
 * [Bubble Browser](http://macoscope.com/portfolio#bubble-browser-ipad)
 * [Sparx Enterprise Architect](http://sparxsystems.com/products/ea/)
+* [Notes Plus](http://www.writeon.cool/notes-plus/)
+* [electronic lab notebook](https://www.google.com/search?q=electronic+lab+notebook&oq=electronic+lab)
 
 
 [sigmajs](http://sigmajs.org/)
