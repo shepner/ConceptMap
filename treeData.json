@@ -38,5 +38,6 @@
   {"source": "port", "target": "proto", "type": "suit"},
   {"source": "port", "target": "application", "type": "suit"},
   {"source": "switch", "target": "srcIP", "type": "suit"},
+  {"source": "router", "target": "srcIP", "type": "suit"},
   {"source": "firewall", "target": "srcIP", "type": "suit"}
 ]
