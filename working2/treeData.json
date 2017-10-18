@@ -27,4 +27,10 @@
   {"source": "Apple", "target": "Samsung", "type": "suit"},
   {"source": "Kodak", "target": "RIM", "type": "suit"},
   {"source": "Nokia", "target": "Qualcomm", "type": "suit"}
+  {"source": "A", "target": "B", "type": "suit"}
+  {"source": "B", "target": "C", "type": "suit"}
+  {"source": "D", "target": "E", "type": "suit"}
+  {"source": "B", "target": "F", "type": "suit"}
+  {"source": "C", "target": "F", "type": "suit"}
+  {"source": "C", "target": "G", "type": "suit"}
 ]
