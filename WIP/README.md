@@ -1,1 +1,1 @@
-this is the actuall code that we will be working on
+this is the actual code that we will be working on
