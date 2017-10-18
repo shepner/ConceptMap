@@ -13,10 +13,19 @@ D3.js examples
 * [Fisheye Distortion](https://bost.ocks.org/mike/fisheye/)
 * This looks promising:  [Mobile Patent Suits](http://bl.ocks.org/mbostock/1153292)
 
-[sigmajs](http://sigmajs.org/)
-
 Concept Maps
 * https://github.com/NorthwoodsSoftware/GoJS/blob/master/samples/conceptMap.html
 * [D3: Simple javascript class wrapper for Concept Map](http://czcodezone.blogspot.com/2015/01/d3-simple-javascript-class-wrapper-for_25.html)
 * [d3.js force directed node focus:Site Concept Browser](http://xliberation.com/googlecharts/d3concept.html)  [discussion](http://ramblings.mcpher.com/Home/excelquirks/gassites/d3-concept-browser)
 * [The Conversation](http://www.findtheconversation.com/concept-map/)
+
+Software
+* [Evernote](https://www.evernote.com)
+* [Tag Spaces](https://www.tagspaces.org/)
+* [The Brain](http://thebrain.com/)
+* [Mohiomap](https://www.moh.io/)
+* [Bubble Browser](http://macoscope.com/portfolio#bubble-browser-ipad)
+* [Sparx Enterprise Architect](http://sparxsystems.com/products/ea/)
+
+
+[sigmajs](http://sigmajs.org/)
