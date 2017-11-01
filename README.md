@@ -14,12 +14,11 @@ tbd2.py
   * use a dir per node if there are files to go with the json file
   * dir structure example:  for 6cdc1aef-e1c5-42ca-a845-7536323a4c9b
     * ~/e1/42/a8/75/6cdc1aef-e1c5-42ca-a845-7536323a4c9b.json
-* stored files should be renamed?
+
 index.html
 which points to whatever.png and some/dir/file.txt
 
 ---
-
 
 general structure
 * top level
@@ -52,8 +51,8 @@ general structure
 * another method of storing webpages
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/2ce6dade-9b26-49f9-b751-7f7a1e417a00/8a87e840-6dff-467a-8628-a8a0bb92f838.html
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/2ce6dade-9b26-49f9-b751-7f7a1e417a00/831ef490-ab13-4b4c-8527-74b95be38502.html
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/2ce6dade-9b26-49f9-b751-7f7a1e417a00/7acfb803-4372-4e8f-9343-b6133cae847f/
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/2ce6dade-9b26-49f9-b751-7f7a1e417a00/0604274b-4855-4f3a-a0a3-a0fb162e9871/
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/2ce6dade-9b26-49f9-b751-7f7a1e417a00/7acfb803-4372-4e8f-9343-b6133cae847f.png
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/2ce6dade-9b26-49f9-b751-7f7a1e417a00/0604274b-4855-4f3a-a0a3-a0fb162e9871.pdf
 
 * saved files/directories
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/somerandomfile
@@ -63,14 +62,9 @@ general structure
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/ESXi/4.5/...
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/GSX/2/...
 
+file named should be based on the UUID of that object (ie 915c5d89-3056-4c66-a85d-fa87ee4ff198.json or e973170b-5812-4e0e-b33a-7c03d0a2cdee.png)
 
-
-
-
-
-* file named should be based on the UUID of that object (ie 915c5d89-3056-4c66-a85d-fa87ee4ff198.json or e973170b-5812-4e0e-b33a-7c03d0a2cdee.png)
-
-<img src="https://imgs.xkcd.com/comics/digital_resource_lifespan_2x.png" align="right" width="500" height="400">
+<img src="https://imgs.xkcd.com/comics/digital_resource_lifespan_2x.png" align="center" width="500" height="400">
 
 
 
