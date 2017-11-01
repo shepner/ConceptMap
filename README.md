@@ -32,6 +32,7 @@ this requires no changes to the content downloaded
 
 * file named should be based on the UUID of that object (ie 915c5d89-3056-4c66-a85d-fa87ee4ff198.json or e973170b-5812-4e0e-b33a-7c03d0a2cdee.png)
 
+<img src="https://imgs.xkcd.com/comics/digital_resource_lifespan_2x.png" align="right" width="500" height="400">
 
 
 
