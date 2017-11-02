@@ -20,23 +20,37 @@ which points to whatever.png and some/dir/file.txt
 
 ---
 
+Think of the overall dir structure as a book (more or less) with Contents, Index, and Content.  Each node is effectively a Chapter which can have its own 
+
 general structure
 * top level
-  * ~/index.html #this is the table of contents/index and can be recreated from the .json files within the dir structure
-  * ~/tags.json  #this is the central list of all tags but can be generated from the tags.json files within the dir structure
-  * ~/dirs.json  #this is the central list of all dirs but can be generated from the dirs.json files within the dir structure
-  * ~/urls.json  #this is the central list of all urls but can be generated from the urls.json files within the dir structure
+  * ~/index.html
+    * this is the table of contents/index
+    * phase1:  create directly from the node level .json files
+  * ~/tags.json
+    * this is the central list of all tags but can be generated from the tags.json files within the dir structure
+  * ~/dirs.json
+    * this is the central list of all dirs but can be generated from the dirs.json files within the dir structure
+  * ~/urls.json
+    * this is the central list of all urls but can be generated from the urls.json files within the dir structure
 
 * top of the node
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416.json  #This is the table of contents of the "chapter" so it is a node pointing to the content.  Could be fully recovered from the content
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416.json
+    * This is the table of contents of the "chapter" so it is a node pointing to the content
+    * Could be fully recovered from the content
 
 * make the contents of the node presentable
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/index.html  #used to display the contents of the dir structure
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/index.html
+    * used to display the contents of the dir structure
 
 * source metadata
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/url.json  #file for bookmark URLs etc
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/tags.json  #file containing all the tags
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/dirs.json  #metadata about the directories.  Would also be used for generating index.html
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/url.json
+    * file for bookmark URLs etc
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/tags.json
+    * file containing all the tags
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/dirs.json
+    * metadata about the directories
+    * Would also be used for generating index.html
 
 * example captured website
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/0cf95454-bf08-11e7-abc4-cec278b6b50a/index.html
