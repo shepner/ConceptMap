@@ -1,26 +1,69 @@
 {
-  'time' : 20171107090503
-  'id' : '9b699b08-684f-47de-940f-69b8767b3416'
-  'metadata' : [
-    {
-      'title' : '',
-      'tag' : ['VMware', 'License', 'Documentation', 'Software'],
-      'file' : [
-        {
-          '9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/license.txt' : 'license.txt',
-        },
-      ],
-      'url' : [
-       {
-         # '<name>' : '<URL>'
-         'VMware website' : 'http://www.vmware.com/'
-       },
-     ],
-#     'association' : [
-#       {
-#         # <from>, <to>, <arrow direction> ([to|from|none|both])
-#       }
-#     ],
-#    },
-#  ],
+  "id" : "9b699b08-684f-47de-940f-69b8767b3416"  #the UUID of this node (should be the same as the root filename)
+
+  "metadata" :
+    # anything that is not the data itself goes here
+    [
+      {
+        "created" : "2017-11-07TT15:44:48+00:00"  #time in ISO format:  https://en.wikipedia.org/wiki/ISO_8601
+        "last modified" : "2017-11-07TT15:44:48+00:00"  #time in ISO format:  https://en.wikipedia.org/wiki/ISO_8601
+
+        "title" : "license.txt",  #this seems redundant in this case
+  
+        "tag" : ["VMware", "License", "Documentation", "Software"],  #this is the primary reason for the node to exist in this case
+  
+        "file" :
+          # the file(s) to be explicitly referenced by the node should be listed here (qty = 0+)
+          # which file(s) to list is subjective.  If a webpage, just list the index.html.  If a dir worth of files, you likely want to list all of them
+          [
+            {
+              # "<path>" : "<name>",
+              "9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/license.txt" : "license.txt",
+            },
+          ],
+
+        "url" :
+          # http://xmarks.com has name, location (url), keyword, description, and tags for each entry plus dir structure
+          # with this, just list the name and URL while the other tags go elsewhere in the node
+          [
+            {
+              # "<URL>" : "<name>",
+              "http://www.vmware.com/" : "VMware website",
+            },
+          ],
+
+#      "association" :
+#        # 
+#        [
+#          {
+#            # <from>, <to>, <arrow direction> ([to|from|none|both])
+#          }
+#        ],
+
+#      "user defined metadata" :
+#        #place for user defined value key pair metadata.  this is a catch-all for anything that wasnt pre-defined elsewhere
+#        [
+#          {
+#            "<key>" : "<value>",
+#          };
+#        ],
+
+      },
+    ],
+
+#  "data" :
+#    # if we store real data, put it here
+#    [
+#      {
+#        "datablock" : "<base64 content>", # this would be a 4K max(?) block of data
+#        "filecontent" : "<base64 content>", # this is the whole file
+#        "user defined data" :
+#          [
+#            {
+#              "<key>" : "<value>",
+#            },
+#          ],
+#      },
+#    ],
+
 }
