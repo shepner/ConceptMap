@@ -1,0 +1,26 @@
+{
+  'time' : 20171107090503
+  'id' : '9b699b08-684f-47de-940f-69b8767b3416'
+  'metadata' : [
+    {
+      'title' : '',
+      'tag' : ['VMware', 'License', 'Documentation', 'Software'],
+      'file' : [
+        {
+          '9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/license.txt' : 'license.txt',
+        },
+      ],
+      'url' : [
+       {
+         # '<name>' : '<URL>'
+         'VMware website' : 'http://www.vmware.com/'
+       },
+     ],
+#     'association' : [
+#       {
+#         # <from>, <to>, <arrow direction> ([to|from|none|both])
+#       }
+#     ],
+#    },
+#  ],
+}
