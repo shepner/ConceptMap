@@ -59,7 +59,7 @@ general structure
   * ~/df/11/ab/ce/0cf95454-bf08-11e7-abc4-cec278b6b50a/dirs.json
   * ~/df/11/ab/ce/0cf95454-bf08-11e7-abc4-cec278b6b50a/urls.json
   * ~/df/11/ab/ce/0cf95454-bf08-11e7-abc4-cec278b6b50a/index.html
-    * auto-generated and points to `whatever.html` to reder
+    * auto-generated and points to `whatever.html` to redirect
   * ~/df/11/ab/ce/0cf95454-bf08-11e7-abc4-cec278b6b50a/whatever.html
     * downloaded content
   * ~/df/11/ab/ce/0cf95454-bf08-11e7-abc4-cec278b6b50a/someimage.png
@@ -76,18 +76,23 @@ general structure
 * saved files/directories
   * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416.json
     * a ref to `9011a66a-3f60-4c17-80c5-b3d078b4964e.json` would indicate the ref node is a child the current node
-    * a reference to `9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/somerandomfile` would just be a link to that file
+    * a reference to `9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/license.txt` would just be a link to that file
+    * this node could contain tags like "license", "documentation", "VMware", etc
     * any external file ref MUST start with the UUID
-  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/
+  * ~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416/<some additional crap goes here if desired>
+    * the subdir is exclusively user content and out of scope for the tool (unless explicitly linked otherwise?)
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e.json
+    * this really can only give tags and such for the dir tree below as a whole
+    * The "file" key value should only primary item (file or subdir) contained within
+        * so, the "file" key value should only contain "vmware" as it is the top level of the dir.
+        * this could also be the index.html if it was a captured webpage.
+        * it is permissible to have multiple if desired.
+    * Each sub-dir or file below that level should have its own separate node (if desired).  ie the example of "~/68/47/94/69/9b699b08-684f-47de-940f-69b8767b3416.json' above.
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/index.html
     * in this case, we generated this file
-  * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/tags.json
-  * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/dirs.json
-  * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/urls.json
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/somerandomfile
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/ESXi/3.0/installername.exe
-  * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/ESXi/3.0/readme.txt
+  * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/ESXi/3.0/license.txt
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/ESXi/3.0/someotherinstaller.exe
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/ESXi/4.5/...
   * ~/3f/4c/80/b3/9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/GSX/2/...
