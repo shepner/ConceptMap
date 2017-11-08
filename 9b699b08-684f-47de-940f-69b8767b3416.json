@@ -5,20 +5,31 @@
     # anything that is not the data itself goes here
     [
       {
-        "created" : "2017-11-07TT15:44:48+00:00"  #time in ISO format:  https://en.wikipedia.org/wiki/ISO_8601
-        "last modified" : "2017-11-07TT15:44:48+00:00"  #time in ISO format:  https://en.wikipedia.org/wiki/ISO_8601
+        "created" : "2017-11-07TT15:44:48+00:00",  #time in ISO format:  https://en.wikipedia.org/wiki/ISO_8601
+        "last modified" : "2017-11-07TT15:44:48+00:00",  #time in ISO format:  https://en.wikipedia.org/wiki/ISO_8601
 
         "title" : "license.txt",  #this seems redundant in this case
   
-        "tag" : ["VMware", "License", "Documentation", "Software"],  #this is the primary reason for the node to exist in this case
+        "tag" : #this is the primary reason for the node to exist in this case
+          # this is an array of strings
+          [
+            "VMware", "License", "Documentation", "Software",
+          ],
   
         "file" :
           # the file(s) to be explicitly referenced by the node should be listed here (qty = 0+)
           # which file(s) to list is subjective.  If a webpage, just list the index.html.  If a dir worth of files, you likely want to list all of them
-          [
+          [  #(optional) this key is how you would create a dir structure if desired
             {
-              # "<path>" : "<name>",
-              "9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/license.txt" : "license.txt",
+              "6bae265c-d693-41a3-8ab8-72dad11349d4" :
+                [
+                  {
+                    "name" : "license.txt",  #(required)
+                    "location" : "9011a66a-3f60-4c17-80c5-b3d078b4964e/vmware/license.txt",  #(required)
+                    "created" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                    "modified" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                  },
+                ]
             },
           ],
 
@@ -27,17 +38,62 @@
           # with this, just list the name and URL while the other tags go elsewhere in the node
           [
             {
-              # "<URL>" : "<name>",
-              "http://www.vmware.com/" : "VMware website",
+              # "<UUID>" : [{"name":"<the name>","url":"<url>","created":"<timestamp>","modified":"<timestamp>",},{...},],
+              "be9d6f71-d357-47e1-a674-cdbc8552ff05" :
+                [ "vmware" : #(optional) this key is how you would create a dir structure if desired
+                  {
+                    "name" : "Vmware main website",  #(required)
+                    "url" : "http://www.vmware.com",  #(required)
+                    "created" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                    "modified" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                    "header" : TRUE,  #(optional) this would be shown in the header section of the node
+#                    "<UUID>" :  #(optional) this is to prefent user defined keys from conflicting with ours
+#                      [
+#                        {
+#                          "<user defined key>" : "<user defined value>",
+#                        },
+#                      ],
+                  },
+                  {
+                    "name" : "Vmware license page",  #(required)
+                    "url" : "http://www.vmware.com/license",  #(required)
+                    "created" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                    "modified" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                    "font" : "ariel",  #(optional) just because
+                    "header" : FALSE,  #(optional) this is the default
+#                    "<UUID>" :  #(optional) this is to prefent user defined keys from conflicting with ours
+#                      [
+#                        {
+#                          "<user defined key>" : "<user defined value>",
+#                        },
+#                      ],
+                  },
+                ],
+              "1c07826c-8243-4ef3-a5da-a0a1dad3fe3a" :
+                [ #no key listed so it would be at the root level
+                  {
+                    "name" : "Micro$oft website",  #(required)
+                    "url" : "http://www.microsoft.com",  #(required)
+                    "created" : "2017-11-07TT15:44:48+00:00",  #(optional) 
+                    "modified" : "2017-11-07TT15:44:48+00:00",  #(optional)
+#                    "<UUID>" :  #(optional) this is to prefent user defined keys from conflicting with ours
+#                      [
+#                        {
+#                          "<user defined key>" : "<user defined value>",
+#                        },
+#                      ],
+                  },
+                ],
+
             },
           ],
 
 #      "association" :
-#        # 
+#        # UML concepts
 #        [
 #          {
-#            # <from>, <to>, <arrow direction> ([to|from|none|both])
-#          }
+#            # <from me>, <to someome else>, <arrow direction> ([to|from|none|both]), <line style> (solid|dashed|etc)
+#          },
 #        ],
 
 #      "user defined metadata" :
@@ -45,7 +101,7 @@
 #        [
 #          {
 #            "<key>" : "<value>",
-#          };
+#          },
 #        ],
 
       },
