@@ -1,5 +1,7 @@
 {
   "id" : "9b699b08-684f-47de-940f-69b8767b3416"  #the UUID of this node (should be the same as the root filename)
+    # asdf@asdf.com:9b699b08-684f-47de-940f-69b8767b3416 would be the full identifier
+    # 
 
   "metadata" :
     # anything that is not the data itself goes here
