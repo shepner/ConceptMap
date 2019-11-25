@@ -25,6 +25,15 @@ Concept Maps
 * [d3.js force directed node focus:Site Concept Browser](http://xliberation.com/googlecharts/d3concept.html)  [discussion](http://ramblings.mcpher.com/Home/excelquirks/gassites/d3-concept-browser)
 * [The Conversation](http://www.findtheconversation.com/concept-map/)
 
+UML
+* [PlantUML](http://plantuml.com/)
+* [mermaid](https://mermaidjs.github.io/#/)
+
+Drawing
+* [yWorks](https://www.yworks.com/)
+* [The GraphML File Format](http://graphml.graphdrawing.org/)
+* [Graphviz](https://www.graphviz.org/)
+
 Software
 * [Evernote](https://www.evernote.com)
 * [Tag Spaces](https://www.tagspaces.org/)
